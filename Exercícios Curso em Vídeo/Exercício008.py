@@ -1,0 +1,7 @@
+metro = float(input('Informe o valor em metros: '))
+print('O valor convertido de metros para kilometro é {}km'.format(metro/1000))
+print('e o valor convertido de metros para hectometro é {}hm'.format(metro/100))
+print('O valor convertido de metros para decâmetro é {}dam'.format(metro/10))
+print('e o valor convertido de metros para decímetro é {}dm'.format(metro*10))
+print('O valor convertido de metros para centímetro é {}cm'.format(metro*100))
+print('e o valor convertido de metros para milímetro é {}mm'.format(metro*1000))
