@@ -1,0 +1,10 @@
+lista_times_tupla = ('Palmeiras', 'Grêmio', 'Atlético-MG', 'Flamengo', 'Botafogo', 'Red Bull Bragantino', 'Fluminense', 'Athletico-PR', 'Internacional', 'Fortaleza', 'São Paulo', 'Cuiabá')
+
+print('-=-' * 15)
+print(f'Os 5 primeiros colocados são {lista_times_tupla[0:5]}')
+print('-=-' * 15)
+print(f'Os 4 últimos colocados são {lista_times_tupla[8:12]}')
+print('-=-' * 15)
+print(f'Os times em ordem alfabética são {sorted(lista_times_tupla)}')
+print('-=-' * 15)
+print('O Internacional está na {}º posição.'.format(lista_times_tupla.index('Internacional') + 1))

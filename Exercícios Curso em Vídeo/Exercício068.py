@@ -7,7 +7,6 @@ print("-=-" * 9)
 import random
 
 
-# Passo 2:
 v = 0
 while True: 
     val = int(input("Digite um valor: "))
